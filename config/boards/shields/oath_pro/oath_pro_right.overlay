@@ -12,11 +12,11 @@
         wakeup-source;
 
         row-gpios
-            = <&pro_micro 9 (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>
-            , <&pro_micro 20 (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>
-            , <&pro_micro 18 (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>
-            , <&pro_micro 14 (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>
-            , <&pro_micro 10 (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>
+            = <&pro_micro 9 GPIO_PULL_DOWN GPIO_ACTIVE_HIGH>
+            , <&pro_micro 20 GPIO_PULL_DOWN GPIO_ACTIVE_HIGH>
+            , <&pro_micro 18 GPIO_PULL_DOWN GPIO_ACTIVE_HIGH>
+            , <&pro_micro 14 GPIO_PULL_DOWN GPIO_ACTIVE_HIGH>
+            , <&pro_micro 10 GPIO_PULL_DOWN GPIO_ACTIVE_HIGH>
             ;
 
         col-gpios
