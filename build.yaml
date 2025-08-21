@@ -21,7 +21,5 @@
 include:
   - board: nice_nano_v2
     shield: oath_pro_left
-    keymap-file: oath_pro.keymap
   - board: nice_nano_v2
     shield: oath_pro_right
-    keymap-file: oath_pro.keymap
