@@ -2,10 +2,6 @@
 #include "oath_pro-layouts.dtsi"
 
 / {
-    &oath_pro_layout {
-        transform = <&default_transform>;
-    };
-
     chosen {
         zmk,physical-layout = &oath_pro_layout;
         // Other chosen items
