@@ -43,15 +43,15 @@
                 };
 
                 extra_layer_1 { //Layer 2
-                        status = "reserved"
+                        status = "reserved";
                 };
 
                 extra_layer_2 { //Layer 3
-                        status = "reserved"
+                        status = "reserved";
                 };
 
                 extra_layer_3 { //Layer 4
-                        status = "reserved"
+                        status = "reserved";
                 };
         };
 };
