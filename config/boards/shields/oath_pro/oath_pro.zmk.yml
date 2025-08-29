@@ -4,9 +4,10 @@ name: Oath Pro
 type: shield
 url: https://github.com/agile-fish/Oath-66-Duo
 requires: [nice_nano_v2]
-exposes: [i2c_oled]
 features:
   - keys
+  - studio
+  - dongle
 siblings:
   - oath_pro_left
   - oath_pro_right
