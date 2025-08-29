@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#import "oath_pro-layouts.dtsi"
+#include "oath_pro-layouts.dtsi"
 
 &oath_pro_layout {
     transform = <&default_transform>;
