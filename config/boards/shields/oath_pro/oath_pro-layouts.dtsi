@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    oath_pro_layout: oath_pro_layout {
+    oath_pro_layout: oath_pro_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         // kscan = <&kscan0>;
