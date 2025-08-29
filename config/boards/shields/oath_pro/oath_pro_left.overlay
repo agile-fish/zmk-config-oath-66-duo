@@ -3,10 +3,10 @@
 // Label of the kscan node in the dtsi
 / {
     chosen {
-        zmk,kscan = &kscan0;
+        zmk,kscan = &kscan_left;
     };
 
-    kscan0: kscan0 {
+    kscan_left: kscan_left_0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
         wakeup-source;
