@@ -3,7 +3,7 @@ id: oath_pro
 name: Oath Pro
 type: shield
 url: https://github.com/agile-fish/Oath-66-Duo
-requires: [nice_nano_v2]
+requires: [nice_nano_v2,seeeduino_xiao_ble]
 features:
   - keys
   - studio

@@ -13,7 +13,7 @@
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |  [  |   |  ]  |  Y  |  U  |  I  |  O  |  P  |   \  |
 // | CAPS |  A  |  S  |  D  |  F  |  G  |     |   |     |  H  |  J  |  K  |  L  |  ;  |  '   |
 // | SHFT |  Z  |  X  |  C  |  V  |  B  | ENT |   | ENT |  N  |  M  |  ,  |  .  |  UP | SHFT |
-// | CTRL |  SU | OPT | CMD |     | SPC |  FN |   |  FN | SPC |     | CMD | LFT | DWN |  RGT |
+// | CTRL | OPT | CMD | CMD |     | SPC |  FN |   |  FN | SPC |     | CMD | LFT | DWN |  RGT |
 // -------------------------------------------------------------------------------------------                        
                         bindings = <
         &kp ESC   &kp N1   &kp N2    &kp N3    &kp N4    &kp N5 &kp MINUS     &kp EQUAL &kp N6    &kp N7 &kp N8    &kp N9   &kp N0   &kp BSPC          
@@ -35,7 +35,7 @@
 // -------------------------------------------------------------------------------------------
                         bindings = <
         &studio_unlock &kp F1       &kp F2       &kp F3       &kp F4       &kp F5       &kp F11       &kp F12   &kp F6     &kp F7    &kp F8     &kp F9   &kp F10   &kp DEL          
-        &bt BT_CLR     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp GRAVE     &kp QMARK &kp KP_N7  &kp KP_N8 &kp KP_N9  &trans   &trans    &trans
+        &bt BT_CLR     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp GRAVE     &kp SLASH &kp KP_N7  &kp KP_N8 &kp KP_N9  &trans   &trans    &trans
         &trans         &trans       &trans       &trans       &trans       &trans                               &kp KP_N4  &kp KP_N5 &kp KP_N6  &trans   &trans    &trans
         &trans         &trans       &trans       &trans       &trans       &trans       &kp ENTER     &kp ENTER &kp KP_N1  &kp KP_N2 &kp KP_N3  &trans   &kp PG_UP &trans
         &trans         &trans       &trans       &trans       &trans                    &mo 1         &mo 1     &kp KP_N0            &kp KP_DOT &kp HOME &kp PG_DN &kp END
